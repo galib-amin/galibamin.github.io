@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Galib Amin – About Me</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="toggle-container">
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+        <span>Dark Mode</span>
+    </div>
+
+    <div class="container fade-in">
+        <header>
+            <img src="assets/galib-photo.jpg" alt="Galib Amin">
+            <h1>Galib Amin</h1>
+            <p class="tagline">Creative | Tech Enthusiast</p>
+            <a href="assets/galib-resume.pdf" class="btn" download>Download Resume</a>
+        </header>
+
+        <section>
+            <h2>Career Highlights</h2>
+            <ul>
+                <li>Deputy Manager (Procurement), BRAC – BDT 60+ crore annual procurement</li>
+                <li>Led high-value projects at Orion Pharma & Garda Shield</li>
+                <li>Procured capital equipment, managed tenders, and reduced costs</li>
+                <li>World Bank Certified in Public Procurement</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Full CV</h2>
+            <p><strong>Current Position:</strong> Deputy Manager (Procurement), BRAC</p>
+            <p><strong>Previous Roles:</strong> Orion Pharma, Garda Shield – procurement of capital items, machinery, IT hardware, and more</p>
+            <p><strong>Major Projects:</strong> 1200 crore pharma project, BDT 5 crore procurement order with 1500+ line items</p>
+            <p><strong>Certifications:</strong> World Bank Certificate in Public Procurement</p>
+            <p><strong>Education:</strong> MBA</p>
+        </section>
+
+        <section>
+            <h2>Graphic Design</h2>
+            <p>Explore my creative work on Behance:</p>
+            <a href="https://behance.net/g4lib" target="_blank">behance.net/g4lib</a>
+        </section>
+
+        <footer>
+            <p>Email: <a href="mailto:galib.al.amin@gmail.com">galib.al.amin@gmail.com</a></p>
+            <p>Phone: 01744975778</p>
+        </footer>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('darkModeToggle');
+        toggle.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
